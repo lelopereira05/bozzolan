@@ -2,11 +2,7 @@
   "name": "portal_fabio_lords",
   "version": "1.0.0",
   "description": "Fábio Lords",
-  "main": "site_fabio_lord.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server"
-  },
+  "main": "index.ejs",
   "author": "Welington Pereira",
   "license": "ISC",
   "dependencies": {
