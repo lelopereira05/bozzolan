@@ -2,7 +2,7 @@
   "name": "portal_fabio_lords",
   "version": "1.0.0",
   "description": "Fábio Lords",
-  "main": "index.ejs",
+  "main": "app.js",
   "author": "Welington Pereira",
   "license": "ISC",
   "dependencies": {
@@ -18,5 +18,8 @@
   },
   "devDependencies": {
     "nodemon": "^1.12.5"
+  },
+  "scripts": {
+    "start": "node server"
   }
 }
