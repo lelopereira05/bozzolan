@@ -15,6 +15,11 @@ app.set('view engine', 'ejs');
 app.set('views', './app/views')
 
 
+// index page 
+app.get('/', function(req, res) {
+  res.render('.app/views/home/index');
+});
+
 app.use(express.static('./app/public'));
 
 app.use(bodyParser.urlencoded({extended: true}));
